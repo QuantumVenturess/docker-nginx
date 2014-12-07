@@ -8,3 +8,8 @@ $ docker run -d --name unicorn [docker_image]
 $ docker build -t nginx .
 $ docker run -d -p 80:80 --link unicorn:app --name nginx nginx
 ```
+
+### Docker hub
+```
+$ docker pull dangerous/docker-nginx
+```
